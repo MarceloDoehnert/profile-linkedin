@@ -1,0 +1,30 @@
+:root{
+    --black: #000;
+    --gray-100: hsla(0, 0%, 100%, 0.6);
+    --gray-200: hsla(0, 0%, 100%, 0.12);
+    --gray-300: #38434F;
+    --gray-400: #1d2226;
+    --white: hsla(0, 0%, 100%, 0.9);
+    --text-black: hsla(0, 0%, 0%, 0.75);
+    --blue-100: #70b5f9;
+    --green-100: #3ec786;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--black);
+}
+
+body,
+textarea,
+input,
+button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
