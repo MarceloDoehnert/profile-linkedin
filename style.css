@@ -48,6 +48,22 @@ li {
     color: var(--gray-100);
 }
 
+.text-gray-small {
+    font-size: 0.75rem;
+    color: var(--gray-100);
+}
+
+.text-white {
+    font-size: 0.875rem;
+}
+
+#all-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+}
+
 #profile-content {
     max-width: 48.75rem;
     min-height: 29.375rem;
@@ -238,6 +254,10 @@ li {
 }
 
 #highlights {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px 16px 22px 16px;
     max-width: 48.75rem;
     min-height: 19.5rem;
     background-color: var(--gray-400);
@@ -255,4 +275,53 @@ li {
     margin-top: .4rem;
     width: 100%;
     height: 152px;
+}
+
+#container-highlights {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title-highlight {
+    font-size: 20px;
+}
+
+.user1,
+.user2,
+.user3 {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: block;
+}
+
+.user1 {
+    background: #378FE9;
+}
+
+.user2 {
+    background: #6DAE4F;
+}
+
+.user3 {
+    background: #DF704D;
+}
+
+.highlight-description {
+    padding: 8px 8px 5px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.comments-users {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.comments-users div {
+    display: flex;
+    flex-direction: row;
 }
