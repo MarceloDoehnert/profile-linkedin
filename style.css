@@ -325,3 +325,17 @@ li {
     display: flex;
     flex-direction: row;
 }
+
+#activities {
+    max-width: 48.75rem;
+    min-height: 23.125rem;
+    background-color: var(--gray-400);
+    border-radius: 16px;
+    padding: 10px 22px;
+}
+
+.activitie-image img {
+    height: 64px;
+    width: 64px;
+}
+
