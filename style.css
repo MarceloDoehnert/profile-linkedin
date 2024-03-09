@@ -1,4 +1,4 @@
-:root{
+:root {
     --black: #000;
     --gray-100: hsla(0, 0%, 100%, 0.6);
     --gray-200: hsla(0, 0%, 100%, 0.12);
@@ -8,7 +8,7 @@
     --text-black: hsla(0, 0%, 0%, 0.75);
     --blue-100: #70b5f9;
     --green-100: #3ec786;
-  }
+}
 
 * {
     padding: 0;
@@ -332,10 +332,107 @@ li {
     background-color: var(--gray-400);
     border-radius: 16px;
     padding: 10px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-.activitie-image img {
+.activity-image img {
     height: 64px;
     width: 64px;
 }
 
+.activity-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 3px solid var(--gray-300);
+}
+
+.activity-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.activity-title {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btn-display-activity .text-gray {
+    text-align: center;
+}
+
+.activity-container .comments-users {
+    padding: 5px;
+}
+
+#about {
+    max-width: 48.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px 24px;
+    background-color: var(--gray-400);
+    border-radius: 16px;
+}
+
+#experence {
+    max-width: 48.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px 24px;
+    background-color: var(--gray-400);
+    border-radius: 16px;
+}
+
+.experence-image {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.experence-image img {
+    width: 48px;
+    height: 48px;
+}
+
+.experence-image div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.position {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+}
+
+.group-circle-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin: 0 20px;
+}
+
+.circle-white {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: var(--white);
+    border-radius: 50%;
+}
+
+.straight-line::before {
+    content: '';
+    border-left: 3px solid var(--gray-300);
+    height: 70px;
+    display: inline-block;
+}
