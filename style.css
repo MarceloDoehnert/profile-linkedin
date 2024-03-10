@@ -285,6 +285,7 @@ li {
 
 .title-highlight {
     font-size: 20px;
+    font-weight: 600;
 }
 
 .user1,
@@ -370,17 +371,10 @@ li {
     padding: 5px;
 }
 
-#about {
-    max-width: 48.75rem;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 16px 24px;
-    background-color: var(--gray-400);
-    border-radius: 16px;
-}
-
-#experence {
+#about,
+#experence,
+#academic-education,
+#languages {
     max-width: 48.75rem;
     display: flex;
     flex-direction: column;
@@ -433,6 +427,20 @@ li {
 .straight-line::before {
     content: '';
     border-left: 3px solid var(--gray-300);
-    height: 70px;
+    height: 55px;
     display: inline-block;
+}
+
+.box-languages {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.box-languages:nth-child(2) {
+    border-bottom: 3px solid var(--gray-300);
+}
+
+.box-languages:nth-child(2) .text-gray {
+    margin-bottom: 5px;
 }
