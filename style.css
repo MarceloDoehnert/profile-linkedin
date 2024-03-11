@@ -444,3 +444,63 @@ li {
 .box-languages:nth-child(2) .text-gray {
     margin-bottom: 5px;
 }
+
+#content-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#content-right,
+#content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#people-also-saw,
+#people-you-might-know {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 20rem;
+    padding: 16px;
+    background-color: var(--gray-400);
+    border-radius: 16px;
+}
+
+#people-also-saw p,
+#people-you-might-know p {
+    font-weight: 600;
+}
+
+#people-also-saw .name-aside,
+#people-you-might-know .name-aside {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.send-message {
+    width: fit-content;
+    color: var(--white);
+    border: 2px solid var(--white);
+    padding: 8px 16px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#people-also-saw .description-aside .text-gray {
+    font-weight: 400;
+}
+
+#people-also-saw .experence-image,
+#people-you-might-know .experence-image {
+    flex-direction: column;
+}
+
+#people-also-saw .description-aside,
+#people-you-might-know .description-aside {
+    flex-direction: row;
+}
